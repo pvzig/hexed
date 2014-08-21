@@ -8,9 +8,9 @@
 
 @interface HexCell : NSObject
 
-@property NSInteger hexIndex;
-@property NSInteger hexNumber;
-@property NSInteger hexState;
+@property (nonatomic) NSInteger hexIndex;
+@property (nonatomic) NSInteger hexNumber;
+@property (nonatomic) NSInteger hexState;
 
 - (id)initWithUniqueId:(NSInteger)hexIndex hexNumber:(NSInteger)hexNumber hexState:(NSInteger)hexState;
 

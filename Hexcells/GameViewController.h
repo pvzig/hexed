@@ -16,21 +16,21 @@
 
 @interface GameViewController : UICollectionViewController
 
-@property (nonatomic) UICollectionView *collectionView;
-@property UICollectionViewFlowLayout *flowLayout;
+@property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
 
-@property NSArray *selectedLevelArray;
+@property (nonatomic, strong) NSArray *selectedLevelArray;
 
-@property NSMutableArray *activeLevelNumber;
-@property NSMutableArray *activeLevelState;
+@property (nonatomic, strong) NSMutableArray *activeLevelNumber;
+@property (nonatomic, strong) NSMutableArray *activeLevelState;
 
-@property UILabel *remainingLabel;
-@property UILabel *mistakesLabel;
-@property UILabel *levelLabel;
-@property NSString *levelLabelString;
+@property (nonatomic, strong) UILabel *remainingLabel;
+@property (nonatomic, strong) UILabel *mistakesLabel;
+@property (nonatomic, strong) UILabel *levelLabel;
+@property (nonatomic, strong) NSString *levelLabelString;
 
-@property NSInteger mistakeCount;
-@property NSInteger minesCount;
-@property NSInteger remainingCount;
-@property NSMutableArray *updatingIndexes;
+@property (nonatomic) NSInteger mistakeCount;
+@property (nonatomic) NSInteger minesCount;
+@property (nonatomic) NSInteger remainingCount;
+@property (nonatomic, strong) NSMutableArray *updatingIndexes;
 @end

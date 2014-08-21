@@ -16,14 +16,14 @@
 
 @interface LevelSelectViewController : UICollectionViewController
 
-@property (nonatomic) UICollectionView *collectionView;
-@property UICollectionViewFlowLayout *flowLayout;
+@property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
 
-@property NSArray *selectedLevelArray;
-@property NSMutableArray *beatenLevelsArray;
-@property NSMutableArray *activeLevelNumber;
-@property NSMutableArray *activeLevelState;
-@property NSMutableArray *updatingIndexes;
+@property (nonatomic, strong) NSArray *selectedLevelArray;
+@property (nonatomic, strong) NSMutableArray *beatenLevelsArray;
+@property (nonatomic, strong) NSMutableArray *activeLevelNumber;
+@property (nonatomic, strong) NSMutableArray *activeLevelState;
+@property (nonatomic, strong) NSMutableArray *updatingIndexes;
 
 
 @end

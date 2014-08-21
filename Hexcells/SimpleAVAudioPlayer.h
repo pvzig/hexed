@@ -18,7 +18,7 @@ typedef void (^CompletionBlock)(BOOL);
 
 @interface SimpleAVAudioPlayer : AVAudioPlayer <AVAudioPlayerDelegate>
 
-@property NSMutableArray *players;
+@property (nonatomic, strong) NSMutableArray *players;
 
 +(SimpleAVAudioPlayer *)shared;
 +(AVAudioPlayer *) playFile:(NSString *)filename loops:(NSInteger)loops withCompletionBlock:(CompletionBlock)completion;
