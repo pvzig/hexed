@@ -16,7 +16,6 @@
 
 @interface GameViewController : UICollectionViewController
 
-@property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
 
 @property (nonatomic, strong) NSArray *selectedLevelArray;

@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2600BCA1198A88B900480636 /* SimpleAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2600BCA0198A88B900480636 /* SimpleAVAudioPlayer.m */; };
-		2600BCA8198EF78200480636 /* ambient.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2600BCA3198EF78200480636 /* ambient.wav */; };
-		2600BCA9198EF78200480636 /* break.aif in Resources */ = {isa = PBXBuildFile; fileRef = 2600BCA4198EF78200480636 /* break.aif */; };
-		2600BCAA198EF78200480636 /* complete.aif in Resources */ = {isa = PBXBuildFile; fileRef = 2600BCA5198EF78200480636 /* complete.aif */; };
-		2600BCAB198EF78200480636 /* mark.aif in Resources */ = {isa = PBXBuildFile; fileRef = 2600BCA6198EF78200480636 /* mark.aif */; };
-		2600BCAC198EF78200480636 /* wrong.aif in Resources */ = {isa = PBXBuildFile; fileRef = 2600BCA7198EF78200480636 /* wrong.aif */; };
 		263EDF891884D8A8009BE890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263EDF881884D8A8009BE890 /* Foundation.framework */; };
 		263EDF8D1884D8A8009BE890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263EDF8C1884D8A8009BE890 /* UIKit.framework */; };
 		263EDF931884D8A8009BE890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 263EDF911884D8A8009BE890 /* InfoPlist.strings */; };
@@ -22,17 +17,22 @@
 		263EDFA31884D8A8009BE890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263EDF881884D8A8009BE890 /* Foundation.framework */; };
 		263EDFA41884D8A8009BE890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263EDF8C1884D8A8009BE890 /* UIKit.framework */; };
 		263EDFB91884D8D4009BE890 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263EDFB81884D8D4009BE890 /* GameViewController.m */; };
-		263EDFBC1884D8EC009BE890 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 263EDFBB1884D8EC009BE890 /* Cell.m */; };
 		26B5A377188AFD6500AAF184 /* Hexcells.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 26B5A376188AFD6500AAF184 /* Hexcells.sqlite3 */; };
-		26D14E5018872760003CF976 /* HexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D14E4F18872760003CF976 /* HexCell.m */; };
 		26D14E5318872914003CF976 /* LevelDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D14E5218872914003CF976 /* LevelDatabase.m */; };
 		26D14E57188734D4003CF976 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D14E56188734D4003CF976 /* libsqlite3.0.dylib */; };
-		26D14E5C18885A06003CF976 /* CellBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D14E5B18885A06003CF976 /* CellBlue.m */; };
-		26D14E5F18885A13003CF976 /* CellGray.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D14E5E18885A13003CF976 /* CellGray.m */; };
 		26DEFF3418D0BD2A00481C78 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B5A37E188B184000AAF184 /* AVFoundation.framework */; };
-		26DEFF3F18D0BEDA00481C78 /* CellGrayLocked.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEFF3C18D0BEDA00481C78 /* CellGrayLocked.m */; };
 		26DEFF4318D0BF0B00481C78 /* LevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEFF4218D0BF0B00481C78 /* LevelSelectViewController.m */; };
 		26DEFF4818D0BFB400481C78 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DEFF4718D0BFB400481C78 /* Storyboard.storyboard */; };
+		26EE90881B1BAA98001EE2C0 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE90811B1BAA98001EE2C0 /* Cell.m */; };
+		26EE90891B1BAA98001EE2C0 /* CellBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE90831B1BAA98001EE2C0 /* CellBlue.m */; };
+		26EE908A1B1BAA98001EE2C0 /* CellGray.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE90851B1BAA98001EE2C0 /* CellGray.m */; };
+		26EE908B1B1BAA98001EE2C0 /* CellGrayLocked.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE90871B1BAA98001EE2C0 /* CellGrayLocked.m */; };
+		26EE90921B1BAAB4001EE2C0 /* ambient.wav in Resources */ = {isa = PBXBuildFile; fileRef = 26EE908D1B1BAAB4001EE2C0 /* ambient.wav */; };
+		26EE90931B1BAAB4001EE2C0 /* break.aif in Resources */ = {isa = PBXBuildFile; fileRef = 26EE908E1B1BAAB4001EE2C0 /* break.aif */; };
+		26EE90941B1BAAB4001EE2C0 /* complete.aif in Resources */ = {isa = PBXBuildFile; fileRef = 26EE908F1B1BAAB4001EE2C0 /* complete.aif */; };
+		26EE90951B1BAAB4001EE2C0 /* mark.aif in Resources */ = {isa = PBXBuildFile; fileRef = 26EE90901B1BAAB4001EE2C0 /* mark.aif */; };
+		26EE90961B1BAAB4001EE2C0 /* wrong.aif in Resources */ = {isa = PBXBuildFile; fileRef = 26EE90911B1BAAB4001EE2C0 /* wrong.aif */; };
+		26EE90991B1BAADD001EE2C0 /* HexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE90981B1BAADD001EE2C0 /* HexCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +48,6 @@
 /* Begin PBXFileReference section */
 		2600BC9F198A88B900480636 /* SimpleAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAVAudioPlayer.h; sourceTree = "<group>"; };
 		2600BCA0198A88B900480636 /* SimpleAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAVAudioPlayer.m; sourceTree = "<group>"; };
-		2600BCA3198EF78200480636 /* ambient.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ambient.wav; sourceTree = "<group>"; };
-		2600BCA4198EF78200480636 /* break.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = break.aif; sourceTree = "<group>"; };
-		2600BCA5198EF78200480636 /* complete.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = complete.aif; sourceTree = "<group>"; };
-		2600BCA6198EF78200480636 /* mark.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = mark.aif; sourceTree = "<group>"; };
-		2600BCA7198EF78200480636 /* wrong.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.aif; sourceTree = "<group>"; };
 		263EDF851884D8A8009BE890 /* Hexcells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hexcells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263EDF881884D8A8009BE890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		263EDF8A1884D8A8009BE890 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,24 +62,29 @@
 		263EDFA01884D8A8009BE890 /* HexcellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexcellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263EDFB71884D8D4009BE890 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		263EDFB81884D8D4009BE890 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		263EDFBA1884D8EC009BE890 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
-		263EDFBB1884D8EC009BE890 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		26B5A376188AFD6500AAF184 /* Hexcells.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hexcells.sqlite3; sourceTree = "<group>"; };
 		26B5A37E188B184000AAF184 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		26D14E4E18872760003CF976 /* HexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexCell.h; sourceTree = "<group>"; };
-		26D14E4F18872760003CF976 /* HexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexCell.m; sourceTree = "<group>"; };
 		26D14E5118872914003CF976 /* LevelDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelDatabase.h; sourceTree = "<group>"; };
 		26D14E5218872914003CF976 /* LevelDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelDatabase.m; sourceTree = "<group>"; };
 		26D14E56188734D4003CF976 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		26D14E5A18885A06003CF976 /* CellBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellBlue.h; sourceTree = "<group>"; };
-		26D14E5B18885A06003CF976 /* CellBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellBlue.m; sourceTree = "<group>"; };
-		26D14E5D18885A13003CF976 /* CellGray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellGray.h; sourceTree = "<group>"; };
-		26D14E5E18885A13003CF976 /* CellGray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellGray.m; sourceTree = "<group>"; };
-		26DEFF3B18D0BEDA00481C78 /* CellGrayLocked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellGrayLocked.h; sourceTree = "<group>"; };
-		26DEFF3C18D0BEDA00481C78 /* CellGrayLocked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellGrayLocked.m; sourceTree = "<group>"; };
 		26DEFF4118D0BF0B00481C78 /* LevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectViewController.h; sourceTree = "<group>"; };
 		26DEFF4218D0BF0B00481C78 /* LevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectViewController.m; sourceTree = "<group>"; };
 		26DEFF4718D0BFB400481C78 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		26EE90801B1BAA98001EE2C0 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = Cells/Cell.h; sourceTree = "<group>"; };
+		26EE90811B1BAA98001EE2C0 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = Cells/Cell.m; sourceTree = "<group>"; };
+		26EE90821B1BAA98001EE2C0 /* CellBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellBlue.h; path = Cells/CellBlue.h; sourceTree = "<group>"; };
+		26EE90831B1BAA98001EE2C0 /* CellBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellBlue.m; path = Cells/CellBlue.m; sourceTree = "<group>"; };
+		26EE90841B1BAA98001EE2C0 /* CellGray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellGray.h; path = Cells/CellGray.h; sourceTree = "<group>"; };
+		26EE90851B1BAA98001EE2C0 /* CellGray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellGray.m; path = Cells/CellGray.m; sourceTree = "<group>"; };
+		26EE90861B1BAA98001EE2C0 /* CellGrayLocked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellGrayLocked.h; path = Cells/CellGrayLocked.h; sourceTree = "<group>"; };
+		26EE90871B1BAA98001EE2C0 /* CellGrayLocked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellGrayLocked.m; path = Cells/CellGrayLocked.m; sourceTree = "<group>"; };
+		26EE908D1B1BAAB4001EE2C0 /* ambient.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ambient.wav; path = Sounds/ambient.wav; sourceTree = "<group>"; };
+		26EE908E1B1BAAB4001EE2C0 /* break.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = break.aif; path = Sounds/break.aif; sourceTree = "<group>"; };
+		26EE908F1B1BAAB4001EE2C0 /* complete.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = complete.aif; path = Sounds/complete.aif; sourceTree = "<group>"; };
+		26EE90901B1BAAB4001EE2C0 /* mark.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = mark.aif; path = Sounds/mark.aif; sourceTree = "<group>"; };
+		26EE90911B1BAAB4001EE2C0 /* wrong.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = wrong.aif; path = Sounds/wrong.aif; sourceTree = "<group>"; };
+		26EE90971B1BAADD001EE2C0 /* HexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexCell.h; path = Cells/HexCell.h; sourceTree = "<group>"; };
+		26EE90981B1BAADD001EE2C0 /* HexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexCell.m; path = Cells/HexCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +114,16 @@
 		2600BCA2198BE2C700480636 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				263EDFBA1884D8EC009BE890 /* Cell.h */,
-				263EDFBB1884D8EC009BE890 /* Cell.m */,
-				26D14E5A18885A06003CF976 /* CellBlue.h */,
-				26D14E5B18885A06003CF976 /* CellBlue.m */,
-				26D14E5D18885A13003CF976 /* CellGray.h */,
-				26D14E5E18885A13003CF976 /* CellGray.m */,
-				26DEFF3B18D0BEDA00481C78 /* CellGrayLocked.h */,
-				26DEFF3C18D0BEDA00481C78 /* CellGrayLocked.m */,
+				26EE90971B1BAADD001EE2C0 /* HexCell.h */,
+				26EE90981B1BAADD001EE2C0 /* HexCell.m */,
+				26EE90801B1BAA98001EE2C0 /* Cell.h */,
+				26EE90811B1BAA98001EE2C0 /* Cell.m */,
+				26EE90821B1BAA98001EE2C0 /* CellBlue.h */,
+				26EE90831B1BAA98001EE2C0 /* CellBlue.m */,
+				26EE90841B1BAA98001EE2C0 /* CellGray.h */,
+				26EE90851B1BAA98001EE2C0 /* CellGray.m */,
+				26EE90861B1BAA98001EE2C0 /* CellGrayLocked.h */,
+				26EE90871B1BAA98001EE2C0 /* CellGrayLocked.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -167,8 +169,6 @@
 				26DEFF4218D0BF0B00481C78 /* LevelSelectViewController.m */,
 				263EDFB71884D8D4009BE890 /* GameViewController.h */,
 				263EDFB81884D8D4009BE890 /* GameViewController.m */,
-				26D14E4E18872760003CF976 /* HexCell.h */,
-				26D14E4F18872760003CF976 /* HexCell.m */,
 				26D14E5118872914003CF976 /* LevelDatabase.h */,
 				26D14E5218872914003CF976 /* LevelDatabase.m */,
 				2600BCA2198BE2C700480636 /* Cells */,
@@ -182,11 +182,7 @@
 		263EDF8F1884D8A8009BE890 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2600BCA3198EF78200480636 /* ambient.wav */,
-				2600BCA4198EF78200480636 /* break.aif */,
-				2600BCA5198EF78200480636 /* complete.aif */,
-				2600BCA6198EF78200480636 /* mark.aif */,
-				2600BCA7198EF78200480636 /* wrong.aif */,
+				26EE908C1B1BAAA6001EE2C0 /* Sounds */,
 				26B5A376188AFD6500AAF184 /* Hexcells.sqlite3 */,
 				263EDF901884D8A8009BE890 /* Hexcells-Info.plist */,
 				263EDF911884D8A8009BE890 /* InfoPlist.strings */,
@@ -194,6 +190,18 @@
 				263EDF961884D8A8009BE890 /* Hexcells-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26EE908C1B1BAAA6001EE2C0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				26EE908D1B1BAAB4001EE2C0 /* ambient.wav */,
+				26EE908E1B1BAAB4001EE2C0 /* break.aif */,
+				26EE908F1B1BAAB4001EE2C0 /* complete.aif */,
+				26EE90901B1BAAB4001EE2C0 /* mark.aif */,
+				26EE90911B1BAAB4001EE2C0 /* wrong.aif */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,14 +279,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2600BCAA198EF78200480636 /* complete.aif in Resources */,
 				26B5A377188AFD6500AAF184 /* Hexcells.sqlite3 in Resources */,
-				2600BCAB198EF78200480636 /* mark.aif in Resources */,
-				2600BCA9198EF78200480636 /* break.aif in Resources */,
+				26EE90951B1BAAB4001EE2C0 /* mark.aif in Resources */,
 				26DEFF4818D0BFB400481C78 /* Storyboard.storyboard in Resources */,
-				2600BCA8198EF78200480636 /* ambient.wav in Resources */,
-				2600BCAC198EF78200480636 /* wrong.aif in Resources */,
+				26EE90931B1BAAB4001EE2C0 /* break.aif in Resources */,
+				26EE90961B1BAAB4001EE2C0 /* wrong.aif in Resources */,
 				263EDF931884D8A8009BE890 /* InfoPlist.strings in Resources */,
+				26EE90921B1BAAB4001EE2C0 /* ambient.wav in Resources */,
+				26EE90941B1BAAB4001EE2C0 /* complete.aif in Resources */,
 				263EDF9B1884D8A8009BE890 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,13 +307,13 @@
 			files = (
 				26D14E5318872914003CF976 /* LevelDatabase.m in Sources */,
 				263EDFB91884D8D4009BE890 /* GameViewController.m in Sources */,
-				263EDFBC1884D8EC009BE890 /* Cell.m in Sources */,
-				26D14E5F18885A13003CF976 /* CellGray.m in Sources */,
-				26DEFF3F18D0BEDA00481C78 /* CellGrayLocked.m in Sources */,
+				26EE90881B1BAA98001EE2C0 /* Cell.m in Sources */,
 				2600BCA1198A88B900480636 /* SimpleAVAudioPlayer.m in Sources */,
 				26DEFF4318D0BF0B00481C78 /* LevelSelectViewController.m in Sources */,
-				26D14E5018872760003CF976 /* HexCell.m in Sources */,
-				26D14E5C18885A06003CF976 /* CellBlue.m in Sources */,
+				26EE908A1B1BAA98001EE2C0 /* CellGray.m in Sources */,
+				26EE908B1B1BAA98001EE2C0 /* CellGrayLocked.m in Sources */,
+				26EE90891B1BAA98001EE2C0 /* CellBlue.m in Sources */,
+				26EE90991B1BAADD001EE2C0 /* HexCell.m in Sources */,
 				263EDF991884D8A8009BE890 /* AppDelegate.m in Sources */,
 				263EDF951884D8A8009BE890 /* main.m in Sources */,
 			);
